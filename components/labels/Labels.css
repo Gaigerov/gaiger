@@ -1,0 +1,71 @@
+.Labels {
+    width: 256px;
+    height: 64px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Labels:disabled {
+    background-color: #D7D5D5;
+    color: #9E9E9E;
+}
+
+.Labels:hover:not(:disabled) {
+    cursor: pointer;
+}
+
+.Labels:active {
+    opacity: 0.7;
+}
+
+.Labels_accent {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.Labels_accent:disabled {
+    background: #9E9E9E;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Labels_outline {
+    box-shadow: none;
+    border:1px solid lightgrey;
+    
+}
+.Labels_outline:disabled {
+    background: #9E9E9E;
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+.Labels_label {
+    width: 96px;
+    height: 64px;
+    box-shadow: none;
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.Labels_label:disabled {
+    background: #9E9E9E;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.Labels__text {
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.25px;
+
+
+}
+.Labels__icon {
+font-size: 16px;
+
+align-items: center;
+
+}
