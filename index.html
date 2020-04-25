@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Labels</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/241772c1db.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <p class="text">Hello world Russia</p>
+        <labels disabled class="Labels Labels_accent"></labels>
+        <labels class="Labels"></labels>
+        <labels class="Labels Labels_outline"> Outline</labels>
+   
+    <labels class="Labels Labels_label">
+       <span class="Labels__icon">
+          <i class="fas fa-star" aria-hidden="true"></i>
+                 </span>
+       
+        <span class="Labels__text">
+            Item
+        </span>
+    </labels>
+        <labels disabled class="Labels Labels_label">
+    <span class="Labels__icon">
+        <p>&#10026;Item</p>
+    </span>
+        <span 
+        class="Labels__text">  
+        </span>
+    </labels>
+
+<labels class="Labels Labels_label">
+<span class="Labels__icon">
+       <p>
+           <dt class="labellogo">&#10026;</dt>
+           <dd class="labeltext">Item</dd>
+    </p>
+           
+
 </body>
+
 </html>

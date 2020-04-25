@@ -1,0 +1,24 @@
+@import url('./components/labels/Labels.css');
+@media screen and (min-width: 600px) and (max-width: 1909px){ 
+
+
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+    
+}
+
+html, body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+Labels {
+    
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+}    
