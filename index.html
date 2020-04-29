@@ -10,35 +10,33 @@
 </head>
 
 <body>
-        <labels class="Labels Labels_accent"></labels>
-        <labels class="Labels"></labels>
-        <labels class="Labels Labels_outline"> Outline</labels>
+        <div class="HorizontalSheet HorizontalSheet_inactive">Accent</div>
+        <div class="HorizontalSheet">White</div>
+        <div class="HorizontalSheet HorizontalSheet_outline"> Outline</div>
    
-    <labels class="Labels Labels_label">
-       <span class="Labels__icon">
-          <i class="fas fa-star" aria-hidden="true"></i>
-                 </span>
-       
-        <span class="Labels__text">
-            Item
-        </span>
-    </labels>
-        <labels disabled class="Labels Labels_label">
-    <span class="Labels__icon">
-        <p>&#10026;Item</p>
-    </span>
-        <span 
-        class="Labels__text">  
-        </span>
-    </labels>
+        
+ 
+           <div class="HorizontalSheet HorizontalSheet_onWhite HorizontalSheet_hideShadow">
+            <div class="Label"> 
+                <img class="Label__icon" src="./images/icon-active.svg" alt="star">
+                <p class="Label__text">Item</p>
+            </div>   
+           </div>
 
-<labels class="Labels Labels_label">
-<span class="Labels__icon">
-       <p>
-           <dt class="labellogo">&#10026;</dt>
-           <dd class="labeltext">Item</dd>
-    </p>
-           
+           <div class="HorizontalSheet HorizontalSheet_inactive HorizontalSheet_hideShadow">
+            <div class="Label"> 
+                <img class="Label__icon" src="./images/icon-white.svg" alt="star">
+                <p class="Label__text">Item</p>
+            </div>   
+           </div>
+
+           <div class="HorizontalSheet HorizontalSheet_inactive HorizontalSheet_hideShadow">
+            <div class="Label_onlyIcon"> 
+                <img class="Label__icon" src="./images/icon-white.svg" alt="star">
+
+            </div>   
+           </div>
+               
 
 </body>
 

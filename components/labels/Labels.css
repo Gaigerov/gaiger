@@ -1,46 +1,51 @@
-.Labels {
-    width: 256px;
-    height: 64px;
+.HorizontalSheet {
+margin: 5px;
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
-.Labels:disabled {
-    background-color: #D7D5D5;
-    color: #9E9E9E;
-}
-
-.Labels:hover:not(:disabled) {
+.HorizontalSheet:hover {
     cursor: pointer;
 }
 
-.Labels:active {
+.HorizontalSheet:active {
     opacity: 0.7;
 }
+.HorizontalSheet_hideShadow {
+box-shadow: none;
+}
 
-.Labels_accent {
-    background: #2196F3;
+.HorizontalSheet_inactive {
+    background: #42A5F5;
     color: #FFFFFF;
 }
 
-.Labels_accent:disabled {
-    background: #9E9E9E;
-    color: rgba(255, 255, 255, 0.5);
+.HorizontalSheet_outline {
+    box-shadow: none;
+    border-bottom:1px solid lightgrey;
+    
+}
+.Label {
+padding:10px 20px;
+text-align: center;
+
+}
+.Label_onlyIcon {
+    padding:22px 22px;
+    text-align: center;
 }
 
-.Labels_outline {
-    box-shadow: none;
-    border:1px solid lightgrey;
-    
+.Label__icon {
+display: inline-block;
+text-align: center;
+vertical-align: center;
+opacity: 0.7;
 }
-.Labels_outline:disabled {
-    background: #9E9E9E;
-    color: rgba(255, 255, 255, 0.5);
-    
+.Label__text {
+    margin:0;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 .Labels_label {
@@ -63,25 +68,23 @@ letter-spacing: 0.25px;
 
 
 }
+.Label__textOnWhite {
+    color: #2196F3;
+    
+}
 .Labels__icon {
 font-size: 20px;
-
 align-items: center;
 
 }
-.Labels__icon:disabled {
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.54);
-    align-items: center;
-    
-    }
-.labellogo {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        text-align: center;
-    }
-.labeltext {
-        display: flex;
-        text-align: center;
-    }
+.HorizontalSheet_onWhite:hover {
+    background: rgba(0, 0, 0, 0.04);
+}
+.HorizontalSheet_onWhite:active {
+    background: #2196F3;
+    opacity: 0.16;
+    image:"./images/icon-blue.svg"
+}
+.HorizontalSheet_inactive:hover {
+    background: #2196F3;
+}
