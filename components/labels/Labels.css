@@ -1,90 +1,82 @@
 .HorizontalSheet {
-margin: 5px;
+    margin: 5px;
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
-    
 }
-
+.HorizontalSheet:active {
+    background-color: #2196F3;
+    opacity: 0.7;
+}
 .HorizontalSheet:hover {
     cursor: pointer;
-}
-
-.HorizontalSheet:active {
     opacity: 0.7;
 }
 .HorizontalSheet_hideShadow {
-box-shadow: none;
+    box-shadow: none;
 }
-
-.HorizontalSheet_inactive {
-    background: #42A5F5;
-    color: #FFFFFF;
-}
-
 .HorizontalSheet_outline {
     box-shadow: none;
-    border-bottom:1px solid lightgrey;
-    
+    border-bottom: 1px solid lightgrey;
 }
+.HorizontalSheet_outline:active {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.Label_inactive {
+    background-color: #42A5F5;
+    color: #FFFFFF;
+}
+.Label_inactive:active {
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Label_inactive:hover {
+    background-color: #2196F3;
+ }
 .Label {
-padding:10px 20px;
-text-align: center;
-
-}
-.Label_onlyIcon {
-    padding:22px 22px;
+    padding: 10px 20px;
     text-align: center;
 }
-
+.Label:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.Label:active {
+    color: #2196F3;
+    background-color: #2196F3;
+    opacity: 0.16;
+}
+.Label_onlyIcon {
+    padding: 22px 22px;
+    text-align: center;
+}
+.Label_onlytext{
+    padding: 23px 23px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+}
 .Label__icon {
-display: inline-block;
-text-align: center;
-vertical-align: center;
-opacity: 0.7;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
 }
 .Label__text {
-    margin:0;
+    margin: 0;
     font-size: 12px;
     line-height: 15px;
 }
-
 .Labels_label {
     width: 96px;
     height: 64px;
     box-shadow: none;
-    background: #2196F3;
+    background-color: #2196F3;
     color: #FFFFFF;
 }
-.Labels_label:disabled {
-    background: #9E9E9E;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-
 .Labels__text {
-font-size: 14px;
-line-height: 21px;
-letter-spacing: 0.25px;
-
-
-}
-.Label__textOnWhite {
-    color: #2196F3;
-    
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 0.25px;
 }
 .Labels__icon {
-font-size: 20px;
-align-items: center;
-
-}
-.HorizontalSheet_onWhite:hover {
-    background: rgba(0, 0, 0, 0.04);
-}
-.HorizontalSheet_onWhite:active {
-    background: #2196F3;
-    opacity: 0.16;
-    image:"./images/icon-blue.svg"
-}
-.HorizontalSheet_inactive:hover {
-    background: #2196F3;
+   font-size: 20px;
+   align-items: center;
 }
